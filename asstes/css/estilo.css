@@ -1,0 +1,22 @@
+/* Limpar a formatação padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #F6F6F6
+  }
+/* Layout */
+#area-cabecalho {
+    background-color: #12AF50;
+    padding: 50px;
+    text-align: left;
+    width: 1454px;
+}
+
+#area-logo img {
+    width: 250px; 
+    height: auto; 
+}
