@@ -3,20 +3,68 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: #F6F6F6
-  }
+}
+
 /* Layout */
 #area-cabecalho {
     background-color: #12AF50;
     padding: 50px;
     text-align: left;
-    width: 1454px;
+    width: 1845px;
+    height: 50px;
 }
 
 #area-logo img {
-    width: 250px; 
-    height: auto; 
+    width: 248px;
+    height: 250px;
+    background: url(../imagens/logobranco.png) no-repeat;
+    position: relative;
+    bottom: 100px;
+    left: 450px;
+}
+
+#função {
+    width: 248px;
+    height: 250px;
+    position: relative;
+    bottom: 245px;
+    float: right;
+    right: 550px;
+
+}
+
+.pesquisa {
+    float: center;
+    position: relative;
+    bottom: 245px;
+    left: 730px;
+
+}
+
+.pesquisa {
+    display: flex;
+}
+
+#search {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0a0a0a;
+    color: white;
+    border: 1px solid #5a5353;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a5353;
 }
